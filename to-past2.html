@@ -205,6 +205,9 @@
 				
 				if(isAnswerCorrect){
 					markCorrect();
+					document.getElementById("advancedAnswerHour").value = -1;
+					document.getElementById("advancedAnswerMinute").value = -1;
+					document.getElementById("advancedAnswerToPast").value = -1;
 					drawClock();
 				}else{
 					markWrong();
