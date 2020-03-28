@@ -14,7 +14,7 @@
             var digitalAnalogMode = "both";
             var pauseAfterWrong = true;
 			
-			var simpleMode = true;
+			var simpleMode = false;
 			
 			function setAdvancedMode(checked){
 			simpleMode = !checked;
@@ -314,8 +314,8 @@
 <input type="radio" name="clockmode" value="both" checked onclick="setMode(this.value)" selected>Both<br /><br />
 
 
-<input type="checkbox" name="pauseAfterWrong" onclick="pauseAfterWrongToggle(this.checked)" checked />Pause after wrong answer<br /><br />
-<input type="checkbox" name="advancedModeToggleChk" onclick="setAdvancedMode(this.checked)" />Advanced mode<br /><br />
+<!-- <input type="checkbox" name="pauseAfterWrong" onclick="pauseAfterWrongToggle(this.checked)" checked />Pause after wrong answer<br /><br />
+<input type="checkbox" name="advancedModeToggleChk" onclick="setAdvancedMode(this.checked)" />Advanced mode<br /><br /> -->
 
 </body>
 </html>
